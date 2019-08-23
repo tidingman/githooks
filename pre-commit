@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "work_dir= $PWD"
+echo "execute pre-commit hook $0"
+source $(dirname $0)/multiple-git-hooks.sh
